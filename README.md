@@ -25,3 +25,25 @@ To train the model and create music, simply clone this directory and run
 ```
 python gen_chords.py
 ```
+The run usually takes 5 minutes in a modern PC.
+
+## Changeable Parameters
+* To change input midi files, modify line 28:
+```
+songs = get_songs('elvis')  #Change this to your folder name
+```
+
+* To change song length generated, modify line 39:
+```
+num_timesteps = 150  # number of timesteps that we will create, (change this to change the time of music generated)
+```
+
+* To change number of epochs, modify line 43:
+```
+num_epochs = 1000  # The number of training epochs that we are going to run.
+```
+
+* To change save location, modify line 135:
+```
+midi_manipulation.noteStateMatrixToMidi(S, "out/generated_chord_{}".format(i))
+```
