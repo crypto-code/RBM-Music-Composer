@@ -47,3 +47,8 @@ num_epochs = 1000  # The number of training epochs that we are going to run.
 ```
 midi_manipulation.noteStateMatrixToMidi(S, "out/generated_chord_{}".format(i))
 ```
+
+# G00D LUCK
+
+For doubts email me at:
+atinsaki@gmail.com
