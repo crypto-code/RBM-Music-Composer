@@ -9,3 +9,13 @@ A Restricted Boltzmann Machine (RBM) is a generative stochastic Neural Network t
 <img src="https://github.com/crypto-code/Music-Generator/blob/master/assets/model.png" align="middle" />   </p>
 
 For more info go [here](https://rubikscode.net/2018/10/01/introduction-to-restricted-boltzmann-machines/)
+
+## Dependencies
+
+  * [Tensorflow](https://www.tensorflow.org/versions/r0.10/get_started/os_setup.html)
+  * pandas
+  * numpy
+  * msgpack-python
+  * glob2
+  * tqdm 
+  * python-midi
