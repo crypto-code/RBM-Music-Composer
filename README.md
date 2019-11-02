@@ -12,10 +12,16 @@ For more info go [here](https://rubikscode.net/2018/10/01/introduction-to-restri
 
 ## Dependencies
 
-  * [Tensorflow](https://www.tensorflow.org/versions/r0.10/get_started/os_setup.html)
+  * Tensorflow
   * pandas
   * numpy
   * msgpack-python
   * glob2
   * tqdm 
   * python-midi
+
+## Basic Usage
+To train the model and create music, simply clone this directory and run
+```
+python gen_chords.py
+```
