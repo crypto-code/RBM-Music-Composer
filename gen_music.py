@@ -132,5 +132,7 @@ with tf.Session() as sess:
             continue
         # Here we reshape the vector to be time x notes, and then save the vector as a midi file
         S = np.reshape(sample[i, :], (num_timesteps, 2 * note_range))
+        if not os.path.exists("out"):
+            os.mkdir('out')
         midi_manipulation.noteStateMatrixToMidi(S, "out/generated_chord_{}".format(i))
 #--------------------------------------------------------------------------------------------------------------------------------------------
