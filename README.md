@@ -23,7 +23,7 @@ For more info go [here](https://rubikscode.net/2018/10/01/introduction-to-restri
 ## Basic Usage
 To train the model and create music, simply clone this directory and run
 ```
-python gen_chords.py
+python gen_music.py
 ```
 The run usually takes 5 minutes in a modern PC.
 
