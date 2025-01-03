@@ -1,4 +1,4 @@
-# RNN Music Composer
+# RBM Music Composer
 Use TensorFlow to Generate Music with a Restricted Boltzmann Machine.
 <p align="center">
 <img src="https://github.com/crypto-code/Music-Generator/blob/master/assets/music.JPG" width="800" height="300" align="middle" />   </p>
